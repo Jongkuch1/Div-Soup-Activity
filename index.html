@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>My Blog</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <style>
+    .hidden-skip {
+      position: absolute;
+      left: -9999px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Skip link (poorly implemented on purpose) -->
+  <div class="hidden-skip">
+    <a href="#content-area">Skip</a>
+  </div>
+
+  <!-- Page wrapper -->
+  <div class="page">
+
+    <!-- Header -->
+    <div class="top-area">
+      <div class="logo-area">
+        <div class="logo-text">My Blog</div>
+      </div>
+
+      <div class="menu-area">
+        <div class="menu-item"><a href="#">Home</a></div>
+        <div class="menu-item"><a href="#">Articles</a></div>
+        <div class="menu-item"><a href="#">About</a></div>
+        <div class="menu-item"><a href="#">Contact</a></div>
+      </div>
+    </div>
+
+    <div class="main-wrapper">
+      <div class="content-area" id="content-area">
+
+        <div class="post-wrapper">
+
+          <div class="post-title">
+            The Joy of Semantics
+          </div>
+
+          <div class="post-meta">
+            <div class="author">By Jane Doe</div>
+            <div class="date">Posted 2 Sept 2025</div>
+          </div>
+
+          <div class="post-image">
+            <img src="hero.jpg">
+          </div>
+
+          <div class="post-body">
+            <div class="paragraph">
+              HTML provides elements that convey meaning beyond presentation.
+            </div>
+            <div class="paragraph">
+              Using the right tags improves accessibility and SEO.
+            </div>
+          </div>
+
+          <div class="quote-area">
+            <div class="quote-text">
+              “Good markup is invisible, but invaluable.”
+            </div>
+          </div>
+
+          <div class="related-area">
+            <div class="related-header">Related</div>
+
+            <div class="related-items">
+              <div class="related-item">
+                <div class="item-title">
+                  <a href="#">Why headings matter</a>
+                </div>
+                <div class="item-desc">
+                  A quick primer on h1–h6
+                </div>
+              </div>
+
+              <div class="related-item">
+                <div class="item-title">
+                  <a href="#">Landmarks 101</a>
+                </div>
+                <div class="item-desc">
+                  header, nav, main…
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="side-area">
+
+        <div class="search-box">
+          <div class="search-title">Search</div>
+          <div class="search-controls">
+            <div>
+              <input type="text" placeholder="Find…">
+            </div>
+            <div>
+              <button>Go</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-box">
+          <div class="about-title">About this site</div>
+          <div class="about-text">
+            We publish web standards tips weekly.
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="footer-area">
+      <div class="footer-links">
+        <a href="#">Privacy</a> |
+        <a href="#">Terms</a>
+      </div>
+
+      <div class="footer-contact">
+        Contact: info@example.com
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>

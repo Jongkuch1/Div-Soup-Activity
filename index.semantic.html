@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>My Blog</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <style>
+    .hidden-skip {
+      position: absolute;
+      left: -9999px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Skip link -->
+  <a href="#main" class="hidden-skip">Skip to main content</a>
+
+  <!-- Page wrapper -->
+  <div class="page">
+
+    <!-- Header -->
+    <header>
+      <h1>My Blog</h1>
+
+      <nav aria-label="Primary">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Articles</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="main-wrapper">
+      <main id="main">
+
+        <article>
+
+          <h2>The Joy of Semantics</h2>
+
+          <p>
+            <span>By Jane Doe</span>
+            <time datetime="2025-09-02">Posted 2 Sept 2025</time>
+          </p>
+
+          <figure>
+            <img src="hero.jpg" alt="Hero image for The Joy of Semantics article">
+          </figure>
+
+          <div class="post-body">
+            <p>HTML provides elements that convey meaning beyond presentation.</p>
+            <p>Using the right tags improves accessibility and SEO.</p>
+          </div>
+
+          <blockquote>
+            <p>"Good markup is invisible, but invaluable."</p>
+          </blockquote>
+
+          <section>
+            <h3>Related</h3>
+            <ul>
+              <li>
+                <a href="#">Why headings matter</a>
+                <p>A quick primer on h1–h6</p>
+              </li>
+              <li>
+                <a href="#">Landmarks 101</a>
+                <p>header, nav, main…</p>
+              </li>
+            </ul>
+          </section>
+
+        </article>
+      </main>
+
+      <aside>
+
+        <section>
+          <h2>Search</h2>
+          <label for="search-input">Find content</label>
+          <input type="text" id="search-input" placeholder="Find…">
+          <button>Go</button>
+        </section>
+
+        <section>
+          <h2>About this site</h2>
+          <p>We publish web standards tips weekly.</p>
+        </section>
+
+      </aside>
+    </div>
+
+    <footer>
+      <nav aria-label="Footer">
+        <a href="#">Privacy</a> |
+        <a href="#">Terms</a>
+      </nav>
+      <p>Contact: info@example.com</p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
